@@ -1,0 +1,67 @@
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.back{
+    background-image:url(../assets/images/back.jpg);
+    position: fixed;
+    min-width: 110%;
+    min-height: 100%;
+    top: -10px;
+    left: -10px;
+    z-index: -2;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    opacity: 0.6;
+
+}
+.logo{
+    min-width: 50%;
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+}
+.firstPart{
+    margin-top:70px;
+}
+
+.flexvideo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer {
+    background-color: #3272DC !important;
+    padding-top: 30px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+}
+.logofoot{
+    max-width: 50%;
+}
+.info {
+    background: #0140A8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+@media all and (min-width:0px) and (max-width: 1024px) {
+    .logofoot{
+        max-width: 100%;
+    }  }
+  
